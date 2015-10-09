@@ -16,7 +16,7 @@ Args:
 Example:
 
 ```shell
-kaifa qiniu
+$ kaifa qiniu
 ```
 
 ## Development
