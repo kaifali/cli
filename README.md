@@ -18,3 +18,9 @@ Example:
 ```shell
 kaifa qiniu
 ```
+
+## Development
+
+* Install [gpm](https://github.com/pote/gpm)
+* `$ gpm install`
+* `go build kaifa.go`
