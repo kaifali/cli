@@ -1,5 +1,11 @@
 # Command-line tool for [kaifa.li](http://kaifa.li)
 
+## Install
+
+```shell
+$ brew install kaifali/formulae/kaifa
+```
+
 ## Usage
 
 ```shell
