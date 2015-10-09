@@ -12,7 +12,7 @@ var (
 )
 
 func main() {
-  kingpin.Version("0.0.1")
+  kingpin.Version("0.0.2")
   kingpin.Parse()
 
   url := fmt.Sprint("http://kaifa.li/services/", *keyword)
