@@ -23,4 +23,4 @@ kaifa qiniu
 
 * Install [gpm](https://github.com/pote/gpm)
 * `$ gpm install`
-* `go build kaifa.go`
+* `$ go build kaifa.go`
