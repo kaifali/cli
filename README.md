@@ -1,4 +1,4 @@
-# 开发哩命令行工具
+# Command-line tool for [kaifa.li](http://kaifa.li)
 
 ## Usage
 
