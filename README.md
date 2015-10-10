@@ -42,3 +42,8 @@ $ kaifa qiniu --format=json
 * Install [gpm](https://github.com/pote/gpm)
 * `$ gpm install`
 * `$ go build kaifa.go`
+
+## Distribute
+
+* Install [gox](https://github.com/mitchellh/gox)
+* `$ scripts/dist.sh`
