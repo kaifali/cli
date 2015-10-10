@@ -4,9 +4,15 @@
 
 ## Install
 
+### OS X
+
 ```shell
 $ brew install kaifali/formulae/kaifa
 ```
+
+### Other platforms
+
+Download binaries at https://github.com/kaifali/cli/releases
 
 ## Usage
 
