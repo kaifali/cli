@@ -14,17 +14,27 @@ $ brew install kaifali/formulae/kaifa
 usage: kaifa [<flags>] <keyword>
 
 Flags:
-  --help     Show context-sensitive help (also try --help-long and --help-man).
-  --version  Show application version.
+  --help           Show context-sensitive help (also try --help-long and --help-man).
+  --format="html"  Format: html,json
+  --version        Show application version.
 
 Args:
   <keyword>  Keyword of service
 ```
 
-Example:
+### Example:
+
+Open browser:
 
 ```shell
 $ kaifa qiniu
+```
+
+Fetch JSON:
+
+```shell
+$ kaifa qiniu --format=json
+#=> {"keyword":"qiniu","name":"七牛","url":"http://developer.qiniu.com"}
 ```
 
 ## Development
