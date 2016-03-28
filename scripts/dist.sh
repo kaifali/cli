@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# gox -output "dist/{{.OS}}_{{.Arch}}/kaifa"
+gox -output "dist/{{.OS}}_{{.Arch}}/kaifa"
 
 cd dist
 for file in *; do
