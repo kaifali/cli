@@ -9,7 +9,8 @@ import (
 	"github.com/toqueteos/webbrowser"
 )
 
-const baseURL string = "http://kaifa.li/api/services/"
+const htmlURL string = "http://kaifa.li/services/"
+const jsonURL string = "http://kaifa.li/api/services/"
 
 var (
 	keyword = kingpin.Arg("keyword", "Keyword of service").Required().String()
@@ -31,12 +32,12 @@ func main() {
 }
 
 func openBrowser() {
-	url := fmt.Sprint(baseURL, *keyword)
+	url := fmt.Sprint(htmlURL, *keyword)
 	webbrowser.Open(url)
 }
 
 func fetchJSON() {
-	url := fmt.Sprint(baseURL, *keyword)
+	url := fmt.Sprint(jsonURL, *keyword)
 
 	request := gorequest.New()
 	resp, body, errs := request.Get(url).
