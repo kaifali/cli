@@ -1,0 +1,11 @@
+package: .
+import:
+- package: github.com/toqueteos/webbrowser
+  version: ~1.0
+- package: github.com/alecthomas/kingpin
+  version: ~2.2
+- package: github.com/parnurzeal/gorequest
+  version: ~0.2
+- package: golang.org/x/net
+  subpackages:
+  - context
