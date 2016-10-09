@@ -18,7 +18,7 @@ var (
 )
 
 func main() {
-	kingpin.Version("0.2.0")
+	kingpin.Version("0.2.1")
 	kingpin.Parse()
 
 	switch *format {
