@@ -9,8 +9,8 @@ import (
 	"github.com/toqueteos/webbrowser"
 )
 
-const htmlURL string = "http://kaifa.li/services/"
-const jsonURL string = "http://kaifa.li/api/services/"
+const htmlURL string = "http://kaifa.at/services/"
+const jsonURL string = "http://kaifa.at/api/services/"
 
 var (
 	keyword = kingpin.Arg("keyword", "Keyword of service").Required().String()
