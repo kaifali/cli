@@ -1,4 +1,4 @@
-# Command-line tool for [kaifa.li](http://kaifa.li)
+# Command-line tool for [kaifa.at](http://kaifa.at)
 
 [![Code Climate](https://codeclimate.com/github/kaifali/cli/badges/gpa.svg)](https://codeclimate.com/github/kaifali/cli)
 
